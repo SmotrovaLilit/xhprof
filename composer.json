@@ -1,4 +1,13 @@
 {
+  "name": "smotrovalilit/xhprof",
+  "description": "xhprof",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Smotrova Lilit",
+      "email": "lilit2990@gmail.com"
+    }
+  ],
   "require": {
     "phacility/xhprof": "dev-master"
   },
