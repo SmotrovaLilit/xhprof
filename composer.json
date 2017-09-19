@@ -1,0 +1,30 @@
+{
+  "require": {
+    "phacility/xhprof": "dev-master",
+  },
+  "autoload": {
+    "psr-4": {
+      "SmotrovaLilit\\": "libs/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "phacility/xhprof",
+        "version": "master",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/phacility/xhprof",
+          "reference": "master"
+        },
+        "autoload": {
+          "files": [
+            "xhprof_lib/utils/xhprof_runs.php",
+            "xhprof_lib/utils/xhprof_lib.php"
+          ]
+        }
+      }
+    }
+  ]
+}
