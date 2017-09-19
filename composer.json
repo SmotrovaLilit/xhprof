@@ -1,6 +1,6 @@
 {
   "require": {
-    "phacility/xhprof": "dev-master",
+    "phacility/xhprof": "dev-master"
   },
   "autoload": {
     "psr-4": {
