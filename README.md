@@ -1,5 +1,7 @@
 # xhprof
 
+[Демонстрация](http://xhprof-example.dev.lilit-web.ru/example.php)
+
 ## Установка ##
 
 ```
@@ -65,4 +67,3 @@ git clone https://github.com/phacility/xhprof ./
 ```
 php_admin_value xhprof.output_dir /custom_path
 ```
-
