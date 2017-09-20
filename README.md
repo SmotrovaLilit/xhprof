@@ -3,11 +3,34 @@
 [Демонстрация](http://xhprof-example.dev.lilit-web.ru/example.php)
 
 ## Установка ##
-
+- В composer.json прописать следующее:
 ```
-composer require smotrovalilit/xhprof
-
+  "require": {
+    "phacility/xhprof": "dev-master",
+    "smotrovalilit/xhprof": "1.0.0"
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "phacility/xhprof",
+        "version": "master",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/phacility/xhprof",
+          "reference": "master"
+        },
+        "autoload": {
+          "files": [
+            "xhprof_lib/utils/xhprof_runs.php",
+            "xhprof_lib/utils/xhprof_lib.php"
+          ]
+        }
+      }
+    }
+  ]
 ```
+
 ### Установка расширения xhprof для php5.6 ###
 - установить необходимые модули
 ```
